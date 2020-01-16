@@ -7,15 +7,29 @@
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/jqueryui.min.js"></script>
     <script>
-      $(document).ready(function() {
-        $("ul.menu ul.sousMenu").hide();
-        $("ul.menu ul.sousMenu span").each(function() {
-          $(this).replaceWith('<a href="" title="Afficher">' + $(this).text() + '</a>');
+      $(document).ready(function () {
+            $(".sousMenu").hide();
+            $("span").each(function () {
+                $(this).replaceWith('<a href="#" title="Afficher">' + $(this).text() + '</a>');
+            });
+            $(".switchmenu > a").click(function () {
+                if ($(this).next(".sousMenu:visible").length != 0) {
+                    $(this).next(".sousMenu").slideUp("normal");
+
+                } else {
+                    $(".sousMenu").slideUp("normal");
+                    $(this).next(".sousMenu").slideDown("normal");
+
+                }
+                return false;
+            });
+
+
         });
-      });
     </script>
   </head>
   <body>
+
     <header>
       <nav>
       <ul class="menu">
