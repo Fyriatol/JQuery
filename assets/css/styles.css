@@ -1,0 +1,19 @@
+@import url("reset.css");
+@import url("font.css");
+
+p {
+  text-align: center;
+  font-size:45px;
+  font-family:caviar dreams;
+  color:blue;
+}
+
+span {
+  color:blue;
+  cursor:crosshair;
+}
+
+body {
+  background-image: url("https://thumbs.gfycat.com/SharpFrigidGonolek-size_restricted.gif");
+  background-size:100%;
+}
