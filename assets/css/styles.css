@@ -5,15 +5,33 @@ p {
   text-align: center;
   font-size:45px;
   font-family:caviar dreams;
-  color:blue;
+  color:white;
 }
 
 span {
-  color:blue;
-  cursor:crosshair;
+  color:white;
 }
 
+h1 {
+  font-size:45px;
+  color:green;
+  text-align:center;
+  font-family:caviar dreams;
+}
+
+fred.polique {
+  justify-content:center;
+}
+
+
+
 body {
-  background-image: url("https://thumbs.gfycat.com/SharpFrigidGonolek-size_restricted.gif");
+  background-image: url("https://acegif.com/wp-content/uploads/starfall-gif.gif");
   background-size:100%;
+}
+
+button {
+  background-color:yellow;
+  width:49%;
+  margin-left:
 }
